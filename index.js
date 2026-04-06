@@ -14,7 +14,7 @@ const urlRoutes = require("./routes/urlRoutes")
 const connectDB = require("./config/db")
 connectDB();
 app.use(cors({
-  origin: "http://localhost:5174",
+  origin: "https://your-frontend.onrender.com",
   methods: ["GET", "POST", "PUT", "DELETE"],
 }))
 
