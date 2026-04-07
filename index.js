@@ -13,10 +13,10 @@ const urlRoutes = require("./routes/urlRoutes")
 
 const connectDB = require("./config/db")
 connectDB();
-app.use(cors({
-  origin: "https://your-frontend.onrender.com",
-  methods: ["GET", "POST", "PUT", "DELETE"],
-}))
+// app.use(cors({
+//   origin: "https://your-frontend.onrender.com",
+//   methods: ["GET", "POST", "PUT", "DELETE"],
+// }))
 
 
 app.use(express.json())

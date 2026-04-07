@@ -11,7 +11,7 @@ exports.createShortUrl = async (req, res) => {
     }
 
     const shortCode = generateCode();
-    const shortUrl = `http://localhost:7000/url/${shortCode}`;
+ const shortUrl = `https://url-backend.onrender.com/url/${shortCode}`;
 
     await URL.create({
       originalUrl,
